@@ -238,6 +238,7 @@ font-style: normal;
 	position: fixed;
 	left: 92.62%;
 	top: 88.67%;;
+	cursor: pointer;
 }
 
 #campaign_card{
@@ -245,6 +246,7 @@ font-style: normal;
 	top: 41.71%;
 	left: 10.89%;
 	display: none;
+	z-index: -1;
 }
 
 .card_title{
@@ -282,6 +284,7 @@ font-style: normal;
 	left: 26.73%;
 	top: 41.71%;
 display: none;
+	z-index: -1;
 }
 
 #emission_card{
@@ -289,6 +292,7 @@ display: none;
 	left: 42.56%;
 	top: 41.71%;
 	display: none;
+	z-index: -1;
 }
 
 #organization_card{
@@ -296,6 +300,7 @@ display: none;
 	left: 58.39%;
 	top: 41.71%;
 	display: none;
+	z-index: -1;
 }
 
 #transportation_card{
@@ -303,6 +308,7 @@ display: none;
 	left: 74.23%;
 	top: 41.71%;
 	display: none;
+	z-index: -1;
 }
 
 #migration_card{
@@ -310,6 +316,7 @@ display: none;
 	top: 41.71%;
 	left: 10.89%;
 	display: none;
+	z-index: -1;
 }
 
 #disease_card{
@@ -317,6 +324,7 @@ display: none;
 	left: 26.73%;
 	top: 41.71%;
 	display: none;
+	z-index: -1;
 }
 
 #water_card{
@@ -324,6 +332,7 @@ display: none;
 	left: 42.56%;
 	top: 41.71%;
 	display: none;
+	z-index: -1;
 }
 
 #bioengineering_card{
@@ -331,6 +340,7 @@ position: absolute;
 	left: 58.39%;
 	top: 41.71%;
 	display: none;
+	z-index: -1;
 }
 
 #child_card{
@@ -338,6 +348,7 @@ position: absolute;
 	left: 74.23%;
 	top: 41.71%;
 	display: none;
+	z-index: -1;
 }
 
 #migration_explaination{
@@ -1255,7 +1266,6 @@ font-style: normal;
 	margin-left: -375px;
 	margin-top: -105px;
 	display: none;
-	
 }
 
 #message_tooltip p{
@@ -1278,6 +1288,7 @@ font-style: normal;
 	margin-left: -375px;
 	margin-top: -100px;
 	display: none;
+	z-index: 1;
 }
 
 #strategy_tooltip p{

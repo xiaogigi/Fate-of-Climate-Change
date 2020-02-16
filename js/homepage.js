@@ -374,8 +374,8 @@ function move(){
 	var triangle_position = -10.5;
 	var year_position = -20.5;
 	var year_num = 2020;
-	var id = setInterval(frame, 500);
-	var id2 = setInterval(frame2, 8000);
+	var id = setInterval(frame, 1500);
+	var id2 = setInterval(frame2, 16000);
 	function frame(){
 		if(width >= 100){
 			clearInterval(id);
@@ -592,8 +592,8 @@ function got_it(){
 }
 
 function flash_news(){
-	setTimeout(function(){document.getElementById("disease_news").style.display = "block"}, 25000);
-	setTimeout(function(){document.getElementById("heat_news").style.display = "block"}, 15000);
+	setTimeout(function(){document.getElementById("disease_news").style.display = "block"}, 60000);
+	setTimeout(function(){document.getElementById("heat_news").style.display = "block"}, 120000);
 }
 
 function scenario(){
@@ -680,6 +680,7 @@ document.getElementById("scenario_power_title").style.display = "block";
 	//message center
 	document.getElementById("message_box").style.display = "none";
 	document.getElementById("message_center").style.display = "none";
+	document.getElementById("unread").style.display = "none";
 	//strategy page
 	document.getElementById("strategy_box").style.display = "none";
 	document.getElementById("my_strategy").style.display = "none";
