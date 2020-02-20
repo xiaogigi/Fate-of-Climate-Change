@@ -375,6 +375,7 @@ function move(){
 	var year_position = -20.5;
 	var year_num = 2020;
 	var id = setInterval(frame, 1500);
+//	var id = setInterval(frame, 500);
 	var id2 = setInterval(frame2, 16000);
 	function frame(){
 		if(width >= 100){
